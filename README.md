@@ -1,10 +1,10 @@
-# 🎓 Derin Öğrenme ile Yüzden Yaş Tahmini Projesi
+#  Derin Öğrenme ile Yüzden Yaş Tahmini Projesi
 
 Bu proje, **Derin Öğrenme (Deep Learning)** yöntemleri kullanılarak insan yüzlerinden yaş tahmini (Age Regression) yapılması amacıyla geliştirilmiştir.
 
 ---
 
-## 1. 📌 Proje Konusu ve Amacı (15 Puan)
+## 1. Proje Konusu ve Amacı 
 
 ### Seçilme Gerekçesi ve Önemi
 Yüz analizi, günümüzde biyometrik güvenlikten kişiselleştirilmiş pazarlamaya kadar geniş bir alanda kullanılmaktadır. Yaş tahmini, bu analizin en zorlu problemlerinden biridir çünkü yaşlanma süreci kişiden kişiye (genetik, yaşam tarzı) ve çevresel faktörlere (ışık, makyaj) göre büyük değişiklik gösterir.
@@ -14,7 +14,7 @@ Geleneksel yöntemlerde (SVM, PCA) el ile çıkarılan özellikler (hand-crafted
 
 ---
 
-## 2. 📊 Veri Setinin Belirlenmesi (15 Puan)
+## 2. Veri Setinin Belirlenmesi 
 
 ### Seçilen Veri Seti: UTKFace
 Projede, yaş tahmini literatüründe 'benchmark' olarak kabul edilen **UTKFace** veri seti kullanılmıştır.
@@ -25,7 +25,7 @@ Projede, yaş tahmini literatüründe 'benchmark' olarak kabul edilen **UTKFace*
 
 ---
 
-## 3. ⚙️ Yöntem ve Algoritma Seçimi (15 Puan)
+## 3. Yöntem ve Algoritma Seçimi 
 
 ### Yaklaşım: Transfer Learning (Transfer Öğrenme)
 Sıfırdan bir CNN eğitmek yerine, **ImageNet** üzerinde önceden eğitilmiş **ResNet18** mimarisi kullanılmıştır.
@@ -39,7 +39,7 @@ Sıfırdan bir CNN eğitmek yerine, **ImageNet** üzerinde önceden eğitilmiş 
 
 ---
 
-## 4. 📈 Model Eğitimi ve Değerlendirme (20 Puan)
+## 4. Model Eğitimi ve Değerlendirme 
 
 Model, **PyTorch** kütüphanesi kullanılarak eğitilmiştir.
 
@@ -51,7 +51,7 @@ Model, **PyTorch** kütüphanesi kullanılarak eğitilmiştir.
 
 ---
 
-## 5. 📂 Proje Dokümantasyonu (10 Puan)
+## 5. Proje Dokümantasyonu 
 
 Proje dosyaları, yeniden üretilebilirliği sağlamak amacıyla modüler bir yapıda düzenlenmiştir.
 
@@ -67,7 +67,7 @@ Proje dosyaları, yeniden üretilebilirliği sağlamak amacıyla modüler bir ya
 
 ---
 
-## 6. 🎥 Projenin Sunumu ve Çalıştırılması (25 Puan)
+## 6. Projenin Sunumu ve Çalıştırılması 
 
 Proje, son kullanıcının kolayca test edebilmesi için **Gradio** arayüzü ile sunulmuştur.
 
